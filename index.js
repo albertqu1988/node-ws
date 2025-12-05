@@ -14,12 +14,12 @@ const UUID = process.env.UUID || '771eff51-877f-402c-a924-a61047299c95';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_PORT = process.env.NEZHA_PORT || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const DOMAIN = process.env.DOMAIN || 'rs0001.vdone.jp';
+const DOMAIN = process.env.DOMAIN || 'jp.57684818.xyz';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub';
 const NAME = process.env.NAME || 'jp';
-const PORT = process.env.PORT || 53280;
+const PORT = process.env.PORT || 54321;
 
 let uuid = UUID.replace(/-/g, ""), CurrentDomain = DOMAIN, Tls = 'tls', CurrentPort = 443, ISP = '';
 const vmsUser = { id: UUID, alterId: 0, security: 'auto' };
